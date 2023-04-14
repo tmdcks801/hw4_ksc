@@ -3,7 +3,6 @@ git checkout -b develop
 git commit -am "B"
 git checkout master
 git commit -am "C"
-git checkout master
 git merge develop
 git commit -am "D"
 git checkout develop
